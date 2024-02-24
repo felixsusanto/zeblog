@@ -1,0 +1,53 @@
+#MagicMenu {
+  background: url("../images/ep_naturalwhite.png");
+}
+.sticky-top-offset {
+  top: 90px;
+}
+#footer {
+  position: relative;
+  background: url("../images/ep_naturalwhite.png");
+  margin-top: 80px;
+}
+#footer .triangle {
+  width: 100%; 
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+}
+#footer .illustration {
+  background: url("../images/newfooter.png");
+  background-position: bottom;
+  background-size: cover;
+  height: 250px;
+  background-repeat: repeat-x;
+  background-color: #8fdbf3;
+  position: relative;
+}
+
+@media (min-width:780px) {
+  #footer .illustration {
+    background-size: contain;
+  }
+
+}
+
+.jagged{
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100%;
+}
+.jagged.up {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAYAAABmWJ3mAAAAAXNSR0IArs4c6QAAACpJREFUGFdjZMABGJHFH965+V9eRR0sBpcACcIUgSTBEsiCMElGbIIgSQA/hA8w6rBebgAAAABJRU5ErkJggg==)
+  repeat;
+}
+.jagged.down {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAYAAABmWJ3mAAAAAXNSR0IArs4c6QAAAChJREFUGFdjfHjn5n8GLIARJIZNEiyBLimvos4Il4BJggRBbBQJZKsAkOEPMD1mmlAAAAAASUVORK5CYII=)
+    repeat;
+}
+
+#footer .footer-content {
+  /* height: 250px; */
+}
+

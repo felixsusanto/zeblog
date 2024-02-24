@@ -1,15 +1,15 @@
 # Site
-name: 'Mundana'
+name: 'VivaVerde'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
+baseurl: ''
+# disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
-permalink: /:title/
+permalink: /posts/:title/
 
 # Plugins
 plugins: 
@@ -19,21 +19,19 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    ethan:
+      name:   Ethan Green
+      site:   https://openai.com/
+      avatar: assets/images/ethan-green.png
+      bio:    Ethan is a tech enthusiast and green living advocate, blending his passion for sustainability with cutting-edge AI insights. His content is a harmony of nature and technology.
+      email:  wowthemesnet@gmail.com
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    ava:
+      name:   Ava Stone
+      site:   https://www.perplexity.ai/
+      avatar: assets/images/ava-stone.png
+      bio:    Ava, merges her expertise in AI with a commitment to a sustainable lifestyle. Her writings offer a unique perspective on eco-friendly living through the lens of advanced technology.
+      email:  fakemail@gmail.com
  
 # Defaults
 defaults:
@@ -43,8 +41,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: ethan
+      avatar: assets/images/ethan.png
       
   # all pages
   - scope:
